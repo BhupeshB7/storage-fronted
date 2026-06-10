@@ -172,7 +172,7 @@ function SharedWithMe() {
   };
 
   const handleDownload = (fileId) => {
-    window.location.href = `http://localhost:3000/api/files/${fileId}?action=download`;
+    window.location.href = `https://storage-production-68c6.up.railway.app/api/files/${fileId}?action=download`;
   };
 
   const handleDeleteFile = async (fileId) => {

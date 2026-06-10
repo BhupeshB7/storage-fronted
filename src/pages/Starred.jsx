@@ -259,7 +259,7 @@ const Starred = () => {
                       </DropdownMenuItem>
                       <DropdownMenuItem
                         onClick={() =>
-                          (window.location.href = `http://localhost:3000/api/files/${fileItem._id}?action=download`)
+                          (window.location.href = `https://storage-production-68c6.up.railway.app/api/files/${fileItem._id}?action=download`)
                         }
                       >
                         <Download className="w-4 h-4 mr-2 text-gray-500" />

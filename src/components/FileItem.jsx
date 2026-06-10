@@ -74,7 +74,7 @@ const FileItem = ({
   };
 
   const handleDownload = () => {
-    window.location.href = `http://localhost:3000/api/files/${file._id}?action=download`;
+    window.location.href = `https://storage-production-68c6.up.railway.app/api/files/${file._id}?action=download`;
   };
 
   const truncateFileName = (name, maxLength = 24) => {
@@ -92,7 +92,7 @@ const FileItem = ({
 
   const renderFilePreview = () => {
     const fileType = getFileType(file.name);
-    const fileUrl = file.url || `http://localhost:3000/api/files/${file._id}`;
+    const fileUrl = file.url || `https://storage-production-68c6.up.railway.app/api/files/${file._id}`;
 
     if (fileType === "image") {
       return (

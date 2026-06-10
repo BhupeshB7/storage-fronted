@@ -4,7 +4,7 @@ import { toast } from "sonner";
 export const connectGoogleDrive = () => {
   return new Promise((resolve) => {
     const popup = window.open(
-      "http://localhost:3000/api/integrations/google/connect",
+      "https://storage-production-68c6.up.railway.app/api/integrations/google/connect",
       "google_drive_connect",
       "width=500,height=600,scrollbars=yes,resizable=yes",
     );

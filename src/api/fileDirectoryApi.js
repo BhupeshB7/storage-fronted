@@ -3,7 +3,7 @@ import { toast } from "sonner";
 
 // Create axios instance with interceptor for rate limiting
 export const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://storage-production-68c6.up.railway.app/api",
   withCredentials: true,
 });
 
