@@ -1,0 +1,117 @@
+[
+  {
+    "_id": { "$oid": "6883cc808486df388f36039d" },
+    "name": "[root-b29.bhupesh@gmail.com](mailto:root-b29.bhupesh@gmail.com)",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": null,
+    "path": [],
+    "createdAt": { "$date": "2025-07-25T18:27:12.189Z" },
+    "updatedAt": { "$date": "2025-07-25T18:27:12.189Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df2e" },
+    "name": "Projects",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883cc808486df388f36039d" },
+    "path": [{ "$oid": "6883cc808486df388f36039d" }],
+    "createdAt": { "$date": "2025-09-01T10:10:00.000Z" },
+    "updatedAt": { "$date": "2025-09-01T10:10:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df3f" },
+    "name": "Work",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883d730afd08562a887df2e" },
+    "path": [
+      { "$oid": "6883cc808486df388f36039d" },
+      { "$oid": "6883d730afd08562a887df2e" }
+    ],
+    "createdAt": { "$date": "2025-09-01T11:00:00.000Z" },
+    "updatedAt": { "$date": "2025-09-01T11:00:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df40" },
+    "name": "Personal",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883cc808486df388f36039d" },
+    "path": [{ "$oid": "6883cc808486df388f36039d" }],
+    "createdAt": { "$date": "2025-09-01T11:30:00.000Z" },
+    "updatedAt": { "$date": "2025-09-01T11:30:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df41" },
+    "name": "Images",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883d730afd08562a887df40" },
+    "path": [
+      { "$oid": "6883cc808486df388f36039d" },
+      { "$oid": "6883d730afd08562a887df40" }
+    ],
+    "createdAt": { "$date": "2025-09-02T08:00:00.000Z" },
+    "updatedAt": { "$date": "2025-09-02T08:00:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df42" },
+    "name": "Documents",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883cc808486df388f36039d" },
+    "path": [{ "$oid": "6883cc808486df388f36039d" }],
+    "createdAt": { "$date": "2025-09-02T09:00:00.000Z" },
+    "updatedAt": { "$date": "2025-09-02T09:00:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df43" },
+    "name": "2025 Reports",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883d730afd08562a887df42" },
+    "path": [
+      { "$oid": "6883cc808486df388f36039d" },
+      { "$oid": "6883d730afd08562a887df42" }
+    ],
+    "createdAt": { "$date": "2025-09-02T09:30:00.000Z" },
+    "updatedAt": { "$date": "2025-09-02T09:30:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df44" },
+    "name": "Archive",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883cc808486df388f36039d" },
+    "path": [{ "$oid": "6883cc808486df388f36039d" }],
+    "createdAt": { "$date": "2025-09-03T08:00:00.000Z" },
+    "updatedAt": { "$date": "2025-09-03T08:00:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df45" },
+    "name": "Videos",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883d730afd08562a887df40" },
+    "path": [
+      { "$oid": "6883cc808486df388f36039d" },
+      { "$oid": "6883d730afd08562a887df40" }
+    ],
+    "createdAt": { "$date": "2025-09-03T09:00:00.000Z" },
+    "updatedAt": { "$date": "2025-09-03T09:00:00.000Z" },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "6883d730afd08562a887df46" },
+    "name": "Temp",
+    "userId": { "$oid": "68dc0a19277f5dc00e523841" },
+    "parentDirId": { "$oid": "6883d730afd08562a887df44" },
+    "path": [
+      { "$oid": "6883cc808486df388f36039d" },
+      { "$oid": "6883d730afd08562a887df44" }
+    ],
+    "createdAt": { "$date": "2025-09-04T09:00:00.000Z" },
+    "updatedAt": { "$date": "2025-09-04T09:00:00.000Z" },
+    "__v": 0
+  }
+]
